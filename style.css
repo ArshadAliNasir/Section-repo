@@ -1,0 +1,262 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: "photograph_signatureregular";
+    src: url(./Fonts/FontsFree-Net-PhotographSignature.ttf);
+  }
+.inner-container{
+    max-width: 1460px;
+    margin: 0px auto;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+.Section-Left{
+    width: 80%;
+}
+.Section-Left h2{
+text-align: center;
+text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.first {
+    padding-right: 30px;
+}
+.first span{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+    .paragraph{
+        display: flex;
+        padding-top: 20px;
+        margin: auto;
+        justify-content: center;
+    }
+    .paragraph p{
+        text-align: center;
+        font-size: 20px;
+        width: 74%;
+        line-height: 35.5px;
+    }
+.Section-Right{
+    width: 20%;
+}
+.images img{
+    width: 100%;
+}
+.signature {
+    width: 100%;
+}
+.signature span {
+    font-family: 'photograph_signatureregular';
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: #000;
+}
+@media only screen and (max-width:1024px) {
+    .Section-Left{
+        width: 80%;
+    }
+    .Section-Left h2{
+    text-align: center;
+    text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    .Section-Left span{
+        font-style: italic;
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+        .paragraph{
+            display: flex;
+            padding-top: 20px;
+            /* padding-left: 60px; */
+            /* padding-right: 60px; */
+            margin: auto;
+            justify-content: center;
+        }
+        .paragraph p{
+            text-align: center;
+            font-size: 18px;
+            width: 74%;
+            line-height: 35.5px;
+        }
+    .Section-Right{
+        width: 20%;
+    }
+    .images img{
+        width: 100%;
+    }
+    .signature {
+        width: 100%;
+    }
+    .signature span {
+        font-family: 'photograph_signatureregular';
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #000;
+    }
+}
+@media only screen and (max-width:768px) {
+    .inner-container{
+        max-width: 1460px;
+        margin: 0px auto;
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .Section-Left{
+        width: 100%;
+    }
+    .Section-Left h2{
+    text-align: center;
+    text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    .Section-Left span{
+        font-style: italic;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+        .paragraph{
+            display: flex;
+            padding-top: 18px;
+            /* padding-left: 60px; */
+            /* padding-right: 60px; */
+            margin: auto;
+            justify-content: center;
+        }
+        .paragraph p{
+            text-align: center;
+            font-size: 16px;
+            width: 100%;
+            /* margin: 0 auto; */
+            line-height: 30.5px;
+        }
+    .Section-Right{
+        width: 100%;
+    }
+    .images {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .images img{
+        width: 35%;
+    }
+    .signature {
+        width: 100%;
+    }
+    .signature span {
+        font-family: 'photograph_signatureregular';
+        font-size: 38px;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #000;
+    }
+    .first {
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:425px) {
+    .inner-container
+    {
+        max-width: 1460px;
+        margin: 0px auto;
+        width: 100%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .Section-Left
+    {
+        width: 100%;
+    }
+    .Section-Left h2
+    {
+    text-align: center;
+    text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    .Section-Left span
+    {
+        font-style: italic;
+        font-size: 16px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        }
+        .paragraph
+        {
+            display: flex;
+            padding-top: 15px;
+            /* padding-left: 60px; */
+            /* padding-right: 60px; */
+            margin: auto;
+            justify-content: center;
+        }
+        .paragraph p
+        {
+            text-align: center;
+            font-size: 14px;
+            width: 100%;
+            line-height: 25.5px;
+        }
+    .Section-Right
+    {
+        width: 100%;
+    }
+    .images 
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .images img
+    {
+        width: 40%;
+    }
+    .signature 
+    {
+        width: 100%;
+    }
+    .signature span
+    {
+        font-family: 'photograph_signatureregular';
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        color: #000;
+    }
+    .first {
+        padding-right: 0px;
+    }
+}
